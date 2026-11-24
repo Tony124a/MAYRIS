@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mayris Ingenieros</title>
+<meta name="description" content="Mayris Ingenieros: firma de ingeniería civil en Sicuani, Canchis – Cusco. Topografía, diseño, construcción y supervisión.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="pages.css">
+</head>
+<body data-page="inicio">
+
+<div id="site-nav"></div>
+
+<!-- ================= PORTADA ================= -->
+<header class="hero" id="inicio">
+  <img class="hero-bg" src="imagen/fodo.jpeg" alt="" fetchpriority="high" decoding="async">
+
+  <!-- FONDO ANIMADO (opcional). Pon un video en imagen/fondo.mp4 (y si quieres imagen/fondo.webm)
+       y se reproduce solo, encima de la foto. Si el archivo no existe, se queda la foto.
+       Un GIF o WebP animado no necesita esto: basta cambiar el src de la foto de arriba. -->
+  <video class="hero-bg" autoplay muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1">
+    <source src="vid/fvid.mp4" type="video/webm">
+    <source src="imagen/fondo.mp4" type="video/mp4" onerror="this.parentNode.remove()">
+  </video>
+
+  <div class="hero-in">
+    <div class="hero-top">
+      <span class="pill"><i></i>Ingenieros civiles</span>
+      <h1>Ingeniería para <br> <em class="rot" data-words="puentes,viviendas,caminos,ideas,proyectos">puentes</em> <br> <span class="rot-end">que duran.</span></h1>
+    </div>
+
+    <div class="hero-bottom">
+      <p class="lead">Combinamos ingeniería y metodología BIM para planificar, coordinar y construir proyectos con mayor precisión y menos imprevistos.</p>
+      <img src="icons/1795315661903.png" alt="" style="height: 70px; width: 200px;">
+      <!--<div class="coords">
+        <img src="icons/1795315661903.png" alt="" style="height: 70px; width: 200px;">
+      </div>   linea bonita-->
+       <a class="btn btn-line" href="nosotros.html">Conócenos</a>
+    </div>
+  </div>
+</header>
+
+<div id="site-footer"></div>
+
+<script src="layout.js"></script>
+</body>
+</html>
